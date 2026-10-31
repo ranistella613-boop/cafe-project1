@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    color: #fcf7d9;
+}
+
+.navbar h1, ul, li{
+    display: inline-block;
+}
+
+h1{
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+
+ul{
+    padding-left: 205px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+li{
+    margin-left: 90px;
+}
+
+.ul2{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul2 li{
+    margin-top: 20px;
+}
+
+ .box1{
+    position: relative;
+    z-index: 1;
+}
+
+.img1{
+    opacity: 0.9;
+    margin-top: -200px;
+    width: 1525px;
+    height: 700px;
+}
+
+.box2 p{
+    position: relative;
+     z-index: 3;
+    font-size: 45px;
+     color: #fcf7d9;
+     display: inline-block;
+    transform: translatey(-400px);
+    text-align: center;
+    box-shadow: #f6d8d6 10px 5px 6px;
+}
+
+ ul li{
+    cursor: grab;
+}
+
+ ul li:hover{
+    background-color:  #f6d8d6;
+    color: #604734;
+}
+
+.img2{
+    width: 400px;
+    height: 350px;
+    margin-top: -10px;
+}
+
+.img3{
+    width: 400px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.img4{
+    width: 400px;
+    height: 350px;
+     margin-top: -10px;
+}
+
+.item1,
+.item2,
+.item3{
+    display: inline-block;
+    border: 5px solid #604734;
+    border-radius: 15px;
+    background-color: #f0c5d4;
+    vertical-align: top;
+    height: 500px;
+}
+    .item2{
+        background-color: #c17591;
+    }
+
+    .item2 h4{
+        margin-top: 30px;
+    }
+
+     .item3{
+        background-color: #a28b93;
+    }
+
+    .box3{
+        color: #604734;
+        text-align: center;
+        margin-top: -50px;
+    }
+
+.box4{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #d4c3b6;
+}
+
+.box4 h3, h4{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    color:  #604734;
+} 
+
+.box5{
+    background-color: #604734;
+    color: #fcf7d9;
+    height: 100px;
+    padding: 10px;
+}
+
+.box5 form{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+.symbol{
+    text-align: center;
+    margin-top: -80px;
+    font-size: 50px;
+}
+
+
